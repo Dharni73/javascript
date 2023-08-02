@@ -1,0 +1,41 @@
+@media only screen and(max-widht:300px){
+}
+.full{
+    background: rgb(136, 136, 220);
+}
+.body{
+    background: rgb(221, 7, 149);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:200px 500px;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+.header{
+    color:white;
+    justify-content: center;
+    align-content: center;
+    padding:0px 60px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+input{
+    border-radius: 5px;
+    border:2px solid black;
+    border:none;
+    padding-bottom: 10px ;
+    width: 100px;
+    height: 3rem;
+    font-family: Verdana;
+    font-weight: bold;
+    background-color: rgb(5, 35, 60);
+}
+.click{
+    margin-top: 10px;
+    font-family: Verdana;
+    font-weight: bold;
+    
+}
