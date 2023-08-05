@@ -1,0 +1,92 @@
+ @media only screen and(max-widht:300px){
+  
+ }
+    body{
+    box-sizing: border-box;
+    box-shadow: 10px;
+    background-color: deeppink;
+    font-family: Georgia;
+}
+ 
+#container{
+display: flex;
+height: 400px;
+width:500px;
+margin:auto;
+margin-top: 100px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: #af80dcdb;
+border-radius: 10px;
+font-family:Verdana;
+
+
+}
+.header{
+ color: #f9f1f1;
+
+}
+.box{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+input{
+    margin-top:30px;
+    border-radius: 5px;
+    border:2px solid black;
+    border: none;
+    height : 2rem;
+    width: 200px;
+    padding-left:10px ;
+    padding-right: 10px;
+    font-family:Verdana;
+    font-weight: bold;
+
+}
+#operation{
+    margin-top:30px;
+    border-radius: 5px;
+    border:2px solid black;
+    border: none;
+    height : 2rem;
+    width: 220px;
+    padding-left:10px ;
+    padding-right: 10px;
+    font-family:Verdana;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.end >button{
+    margin-top: 30px;
+    width: 200px;
+    height: 2rem;
+    border-radius: 5px;
+    border: 2px solid black;
+    border:none;  
+    background-color: deeppink;
+    background-color: ;
+    font-family:Verdana;
+    font-weight: bold;
+    color: white;
+   
+}
+button:hover{
+ cursor: pointer;
+ color:#af80dcdb;
+}
+
+#result{
+    display: flex;
+    text-align: center;
+    margin:20px;
+    color: white;
+    font-family:Verdana;
+    font-weight: bold;
+
+
+}
