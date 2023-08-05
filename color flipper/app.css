@@ -1,0 +1,30 @@
+.header{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-content:space-between;
+	color:deeppink;
+	font-size: 20px;
+	font-family: Eras Demi ITC;
+
+}
+#Body{
+display:flex;
+align-items:center;
+justify-content:center;
+width: 100vw;
+height: 90vh;
+}
+button{
+	border: 1px solid ;
+	border-radius:5px;
+	background: deeppink;
+	color:white;
+	cursor: pointer;
+	width: 300px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Eras Demi ITC;
+
+}
