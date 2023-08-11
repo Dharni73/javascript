@@ -1,0 +1,67 @@
+
+
+body{
+	background:linear-gradient(to left,rgba(38,231,169),rgba(49,178,185,1));
+	font-family: Elephant;
+	font-weight: bold;
+}
+
+
+#body{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width: 500px;
+	height:300px;
+	margin: 100px 400px;
+	border: 2px ;
+	background: linear-gradient(to right,rgba(65,138,229,1),rgba(157,178,225,1));
+	padding-bottom: 20px;
+	border-radius: 7px;
+
+}
+
+h2{
+	   letter-spacing:2px;
+		color:white;
+}
+input{
+	border:2px solid black;
+	border-radius: 2px;
+	margin-left:50px;
+	padding-left: 10px;
+	height:2rem;
+	width: 200px;
+	align-items:center;
+	border:none;
+	color: rgba(48,178,185);
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+button{
+	width: 100px;
+	height: 2rem;
+	background: rgba(38,231,169);
+	border:2px;
+	border-radius: 2px;
+	color:white;
+	font-weight: bold;
+
+}
+button:hover{
+	cursor: pointer;
+}
+
+#todoList{
+	color:white;
+	width:100px;
+	font-family: Calibri;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
+#todoList p{
+	margin: 10px 0px;
+}
+#todoList p:hover{
+	cursor:pointer;
+}
