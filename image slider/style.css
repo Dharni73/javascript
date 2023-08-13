@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to top,rgba(36, 36, 224, 0.658),rgba(17, 186, 253, 0.948));
+    background-attachment: fixed;
+}
+.img-container{
+    width: 70%;
+    height:80vh;
+    background:url("img/Agra-Fort.jpg") center fixed no-repeat;
+    border:0.5rem solid #cbe14c;
+    border-radius:0.5rem;
+    margin:4rem auto;
+    position: relative;
+    box-shadow: 10px 10px 40px rgba(0, 0,0,0.8);
+    transition: background 1s ease-in-out;
+}
+.btn-left{
+    position:absolute;
+    top:50%;
+    left:0;
+    background-color: #cbe14c;
+    color:black;
+    transform: translate(-50%, -50%);
+    border: 0.2rem solid blue;
+    font-size: 2rem;
+    padding:15px;
+    cursor:pointer;
+}
+
+.btn-right{
+    position:absolute;
+    top:50%;
+    right:0;
+    background-color: #cbe14c;
+    color:black;
+    transform: translate(50%, -50%);
+    border: 0.2rem solid blue;
+    font-size: 2rem;
+    padding:15px;
+    cursor:pointer;
+}
