@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    background-color: black;
+    color:white
+}
+img{
+    width: 100%;
+    height:100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:3rem 7rem 0rem;
+}
+.nav .left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.nav .left h3{
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.nav .left h2{
+    font-style:italic;
+    font-weight: 400;
+    
+}
+
+.nav .right h3{
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.nav .right h2{
+    font-style:italic;
+    font-weight: 400;
+    
+}
+.intro{
+    position: fixed;
+    width: 100%;
+    height:100%;
+
+}
+.intro .hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    padding: 4rem 7rem 0rem 7rem;
+    margin-left: 20px ;
+    transform: translateY(100%);
+}
+.intro .hero .left-hero{
+    width: 55%;
+}
+.intro .hero .left-hero h2{
+    font-size: 20px;
+    line-height: 40px;
+}
+.intro .hero .right-hero{
+    width: 40%;
+}
+.slider{
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: #18181A;
+    width:100%;
+    height:100%;
+    transform:translateY(100%)
+}
