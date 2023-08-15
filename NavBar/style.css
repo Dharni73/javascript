@@ -1,0 +1,73 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(mysore-palace.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+nav{
+    background-color: rgb(29, 177, 147);
+    font-size: 25px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    color:darkslateblue;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+}
+nav a{
+    text-decoration: none;
+}
+.logo{
+    font-size: 34px;
+    font-weight: bold;
+}
+nav a:hover{
+    color:whitesmoke;
+}
+.menu-line{
+    height:3px;
+    width:20px;
+    background-color: darkslateblue;
+    margin-bottom:3px;
+   
+}
+.menu{
+    cursor:pointer;
+    display:none;
+}
+
+@media all and (max-width:600px){
+    nav{
+        display:flex;
+        flex-direction: column;
+    }
+    nav li{
+        display:block;
+        padding:10px 0;
+    }
+    ul{
+        text-align: center;
+        padding: 0px;
+        display: none;
+    }
+    .logo{
+        align-self: flex-start;
+        margin:10px ;
+    }
+    .menu{
+        display: block;
+        position:absolute;
+        top:20px;
+        right:20px;
+    }
+    .showmenu{
+        display: block;
+
+    }
+}
