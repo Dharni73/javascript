@@ -1,0 +1,123 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Montserrat', sans-serif;;
+	font-size: 20px;
+	font-weight:bold;
+}
+.wrapper{
+	display: flex;
+	justify-content:space-around;
+	background-color: black;
+}
+ul {
+	display:flex;
+	flex-direction:row;
+	list-style-type: none;
+	color: whitesmoke;
+}
+
+ a{
+ 	display: inline-block;
+	margin-left: 20px;
+	text-decoration: none;
+	outline: none;
+	color:whitesmoke;
+}
+a:hover{
+	color:#d72020f7;
+}
+.logo{
+	margin-top: 15px;
+	padding: 5px;
+	text-align: center;
+	color:white;
+}
+.menu-line{
+	margin:15px;
+	display: none;
+	cursor:pointer;
+}
+.dropdown{
+	cursor: pointer;
+
+}
+
+.drop {
+  opacity: 0; /* Start with opacity 0 */
+  visibility: hidden; /* Hide the element */
+  position: absolute;
+  background: black;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: -15px;
+  transition: opacity 0.3s, visibility 0.3s; /* Add transition */
+}
+
+/* Display the .drop class when hovering over the .dropdown element */
+.dropdown:hover .drop {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Style the links within the .drop class */
+.dropdown-content a {
+  display: block;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+  color: whitesmoke;
+  background-color: black;
+  transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+  background-color: #d72020f7;
+}
+
+
+
+@media all and (max-width:700px){
+	.wrapper{
+		flex-direction:column;
+	}
+	
+	.wrapper ul{
+		display: block;
+		text-align: center;
+		padding: 0;
+		
+	}
+     .drop{
+		display: none;
+		position: absolute;
+	}
+    .dropdown:hover .drop{
+    	display:block;
+    	padding: 20px;
+    }
+	
+	ul li{
+		padding-top:10px;
+	}
+
+	.menu-line{
+		display: block;
+		position: absolute;
+		right:25px;
+		top:20px;
+
+	}
+	.logo{
+		text-align:start;
+	}
+	.showmenu{
+		display: block;
+	}
+		
+}
