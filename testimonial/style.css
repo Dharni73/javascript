@@ -1,0 +1,115 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,500&family=Changa&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:  'Poppins', sans-serif;
+}
+body{
+    width:100%;
+    height:100vh;
+    background:radial-gradient(rgb(117, 64, 95),rgba(225, 85, 192, 0.818));
+    display: grid;
+    place-items: center;
+}
+.container{
+    background-color: #fff;
+    width:600px;
+    padding:20px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    border-radius: 5px;
+    user-select: none;
+}
+.img-box{
+    display:flex;
+    justify-content: center;
+}
+.container h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px;
+    position: relative;
+    padding: 10px;
+}
+.container h2 span{
+    color:blueviolet;
+}
+.container h2::after{
+    content:"";
+    width:50%;
+    height:3px;
+    background-color: blueviolet;
+    position: absolute;
+    bottom:0;
+    left:0;
+    margin:5px 0px 0px;
+    transform: translateX(150px);
+
+}
+ .pic{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 204, 204);
+    border-radius: 50%;
+    position: relative;
+    z-index:7;
+}
+.pic img{
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index:10;
+}
+.profile{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:flex-start;
+    gap:10px;
+    margin-left:10px;
+}
+.profile h4{
+    font-size: 18px;
+    position: relative;
+}
+.profile p{
+    font-size: 14px;
+}
+.profile h4::after{
+    content:"";
+    width:100%;
+    height:2px;
+    background-color: blueviolet;
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+.text p{
+    padding: 20px;
+    font-size: 20px;
+    color:#222;
+    font-family: 'Changa', sans-serif;
+}
+.arrow{
+    position: absolute;
+    font-size: 30px;
+    top:300px;
+    cursor:pointer;
+    
+}
+.fa-chevron-circle-right{
+    right:50px;
+}
+    
+
+.fa-chevron-circle-left{
+    left:50px;
+}
