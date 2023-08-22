@@ -1,0 +1,104 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Roboto+Slab&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+  
+     
+}
+.container{
+    width:600px;
+    height: 50vh;
+    background-color: rgb(136, 205, 232);
+    display:block;
+    margin: 150px auto ;
+    padding: 10px 15px;  
+    border-radius: 10px;
+}
+.details{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 10px 0px;
+}
+.heading{
+    display:block;
+    position: relative;
+    text-align: center;
+    color:rgb(244, 39, 114);
+    margin-bottom: 10px;
+    
+}
+.heading h2::after{
+    content:"";
+    width:50%;
+    height: 2px;
+    background-color: rgb(189, 62, 235);
+    position: absolute;
+    bottom:0;
+    left:2px;
+    margin:5px 0px 0px;
+    transform: translateX(150px);
+}
+.icon{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:10px 0px;
+    font-size: 20px;
+    color:white;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+i:hover{
+    cursor:pointer;
+    background-color: rgb(27, 106, 209);
+    border-radius: 50%;
+}
+img{
+    width:80%;
+    border-radius: 50%;
+    position: relative;
+    transition: transform 0.5s;
+}
+img:hover{
+    cursor: pointer;
+    transform:scale(1.2);
+}
+.text{
+    display: block;
+    background-color: aliceblue;
+    text-align: center;
+    margin:5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.text p{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+@media (max-width:650px) {
+    .container{
+        width:300px;
+        height:60vh;
+       
+    }
+    .heading h2::after{
+        content:"";
+        width:50%;
+        height: 2px;
+        background-color: rgb(189, 62, 235);
+        position: absolute;
+        bottom:0;
+        left:0;
+        margin:5px 0px 0px;
+        transform: translateX(80px);
+    }
+    
+}
