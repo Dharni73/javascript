@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+background:rgb(69, 73, 84);
+}
+.app{
+    background: #ffff;
+    width: 100%;
+    max-width:600px;
+    margin: 100px auto 0;
+    border-radius: 5px;
+    padding:30px;
+}
+.app h1{
+    font-size: 25px;
+    color:#032254;
+    font-weight:600;
+    border-bottom: 2px solid #383535be;
+    padding-bottom:20px;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 20px;
+    font-weight: 500;
+    color:#032254;
+}
+.btn{
+    background:#fff;
+    color:#222;
+    width:100%;
+    border:1px solid #333;
+    padding:10px;
+    font-weight: 500;
+    margin:10px 0;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover:not([disabled]){
+    background: #222;
+    color:#fff;
+}
+.btn:disabled{
+    cursor:no-drop;
+}
+#next{
+    background: #001e4d;
+    width:25%;
+    border:1px solid #333;
+    padding:10px;
+    font-weight: 500;
+    cursor:pointer;
+    color:#fff;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    display:none;
+
+}
+.correct{
+    background: rgba(71, 226, 71, 0.599);
+}
+.incorrect{
+    background: rgba(230, 4, 4, 0.653);
+}
+@media(max-width:660px) {
+    .app{
+        background: #ffff;
+        width: 70%;
+        max-width:600px;
+        margin: 100px auto 0px;
+        border-radius: 5px;
+        padding:30px;
+    }
+    
+}
