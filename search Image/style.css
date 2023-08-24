@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif:ital@1&family=Roboto+Slab&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to bottom, rgba(184, 98, 33, 0.992),rgba(227, 156, 50, 0.926));
+    background-attachment: fixed;
+    padding:10px;
+}
+.gallery{
+    margin:50px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:1rem;
+}
+.gallery .gallery-item{
+    height:15rem;
+    margin:0 auto;
+    border: 2px solid whitesmoke;
+}
+.gallery-item img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.gallery-item img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.search{
+    margin:50px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input{
+    width:500px;
+    height:30px;
+    padding:10px;
+    border:none;
+    outline:none;
+    border-radius: 3px;
+    box-shadow: 5px 10px 5px rgba(0,0,0,0.5);
+    color:black;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing:1px;
+}
